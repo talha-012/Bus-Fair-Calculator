@@ -1,0 +1,13 @@
+1 Barishal                 740.00     6-to-8-hours
+2 Bogura                   560.00     5-to-7-hours
+3 Chapai-nawabganj         950.00     7 to 9 hours
+4 Dinapur                  940.00     4 to 6 hours
+5 jessore                  700.00     4-to-6-hours
+6 Joypurhat                700.00     6 to 8 hours
+7 Khulna                   820.00     6 to 8 hours
+8 Kushtia                  700.00     5 to 7 hours
+9 Mymensingh               450.00     3 to 4 hours
+10 Pabna                   650.00     4 to 5.5 hours
+11 Rangpur                 880.00     7 to 9 hours
+12 rajshahi                700.00     6 to 8 hours
+13 Sylhet                  700.00     6 to 8 hours
