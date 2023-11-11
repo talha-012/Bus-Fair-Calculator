@@ -43,8 +43,7 @@ int main()
         cout << cyan << ch << reset;
     }
     cout << "\n\n";
-    // cout<<"\t\t\t__________________________________________________________________________\n\n\n";
-    // cout<<"\t\t\t                      Welcome to the Login page                               \n\n";
+   
     cout << yellow << "\t\t\t____________________         MENU        ______________________" << reset << "\n\n";
 
     cout << "                                                                                \n\n";
@@ -488,12 +487,13 @@ void timeselection()
 
     inputFile.close();
 
-    std::fstream file(globalName + ".txt", std::ios::in | std::ios::out | std::ios::ate);
-    /////////////
+    //save bus time in user file
+    fstream file(globalName + ".txt", ios::in | ios::out | ios::ate);
+    
 
     if (file.is_open())
     {
-        file << "      Your selected Bus name: " << time << endl;
+        file << "      Your selected Bus time: " << time << endl;
         file.close();
     }
 }
