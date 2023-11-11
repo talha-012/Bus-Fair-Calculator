@@ -544,7 +544,7 @@ void busselection()
     }
 
     ////////////////////
-
+//using userfile to store bus name 
     fstream file(globalName + ".txt", ios::in | ios::out | ios::ate);
 
     if (file.is_open())
