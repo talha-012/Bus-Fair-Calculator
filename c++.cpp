@@ -140,17 +140,17 @@ void registration()
 
 void createUserFile(const string &username)
 {
-    std::string filename = username + ".txt";
-    std::ofstream file(filename);
+    string filename = username + ".txt";
+    ofstream file(filename);
 
     if (file.is_open())
     {
         file.close();
-        std::cout << "User file created: " << filename << std::endl;
+        cout << "User file created: " << filename << std::endl;
     }
     else
     {
-        std::cerr << "Error creating user file." << std::endl;
+        cerr << "Error creating user file." << std::endl;
     }
 }
 
